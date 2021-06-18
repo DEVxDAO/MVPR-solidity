@@ -7,6 +7,7 @@
 - [Solhint](https://github.com/protofire/solhint): linter
 - [Solcover](https://github.com/sc-forks/solidity-coverage) code coverage
 - [Prettier Plugin Solidity](https://github.com/prettier-solidity/prettier-plugin-solidity): code formatter
+- [EIP-1329](https://github.com/ethereum/EIPs/issues/1329)
 
 ## Usage
 
@@ -73,3 +74,6 @@ Delete the smart contract artifacts, the coverage reports and the Hardhat cache:
 ```sh
 $ yarn clean
 ```
+
+### License Credits
+External to the original code created for this DevXDAO implementation, credit is owed Maxim Orlovsky for elements of the EIP-1329 used in the codebase
